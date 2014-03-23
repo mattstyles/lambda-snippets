@@ -2,7 +2,7 @@
   "name": "lambda-snippets",
   "version": "0.0.1",
   "description": "Its just some javascript code snippets",
-  "repository": "https://github.com/atom/lambda-snippets",
+  "repository": "https://github.com/mattstyles/lambda-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
