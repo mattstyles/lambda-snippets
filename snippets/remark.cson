@@ -1,4 +1,4 @@
 '.source.js':
   'Remark Comment':
-    'prefix': '/**'
+    'prefix': 'rem'
     'body': '/**\n *\n$1 */'
