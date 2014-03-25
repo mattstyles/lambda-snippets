@@ -1,4 +1,4 @@
 '.source.js':
   'Immediately-Invoked Function Expression':
     'prefix': '!fn'
-    'body': '(function( ${1:args} ) {\n\t"use strict";\n\t$3\n})( ${2:invokedWith} );'
+    'body': '(function( ${1:args} ) {\n\t"use strict";\n\n\t$3\n\n})( ${2:invokedWith} );'

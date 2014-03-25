@@ -1,4 +1,6 @@
 '.source.js':
   'Function':
     'prefix': 'fn'
-    'body': 'function ${1:methodName}( ${2:args} ) {\n\t$3\n}'
+    'body': '''function() {
+        $1
+    }'''
