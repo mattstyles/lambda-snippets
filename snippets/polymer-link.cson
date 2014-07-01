@@ -1,0 +1,4 @@
+'.source.js':
+  'Module Exports':
+    'prefix': 'plink'
+    'body': '<link rel="import" href="$1">'
