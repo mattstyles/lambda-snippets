@@ -2,7 +2,10 @@
   'Polymer Function':
     'prefix': 'poly'
     'body': '''Polymer( \'$1\', {
-            $2
+
+            ready: function() {
+                $2console.log( 'component ready' );
+            }
 
         });
     '''
