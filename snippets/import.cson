@@ -1,0 +1,4 @@
+'.source.js':
+  'ES6 import':
+    'prefix': 'im'
+    'body': '''import ${1:name} from \'${2:dep}\''''
