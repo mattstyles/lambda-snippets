@@ -1,0 +1,21 @@
+'.source.js':
+  'react class base':
+    'prefix': 'react'
+    'body': '''import React from 'react'
+
+        export default class Grid extends React.Component {
+            constructor( props ) {
+                super( props )
+
+                $1
+            }
+
+            render() {
+                return (
+                    <div>
+                        { this.props.children }
+                    </div>
+                )
+            }
+        }
+    '''
