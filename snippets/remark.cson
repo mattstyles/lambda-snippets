@@ -2,3 +2,13 @@
   'Remark Comment':
     'prefix': 'rem'
     'body': '/**\n * $1\n */'
+
+'.source.less':
+  'Remark Comment':
+    'prefix': 'rem'
+    'body': '/**\n * $1\n */'
+
+'.source.css':
+  'Remark Comment':
+    'prefix': 'rem'
+    'body': '/**\n * $1\n */'

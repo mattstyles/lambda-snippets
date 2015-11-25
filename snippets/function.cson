@@ -2,5 +2,5 @@
   'Function':
     'prefix': 'fn'
     'body': '''function() {
-        $1
+      $1
     }'''
