@@ -1,4 +1,0 @@
-'.source.js':
-  'Require':
-    'prefix': 'req'
-    'body': 'require( \'${1:module}\' )$2'

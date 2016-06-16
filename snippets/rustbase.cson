@@ -1,0 +1,9 @@
+'.source.rs':
+  'extern crate':
+    'prefix': 'ec'
+    'body': 'extern crate ${1:name}'
+
+'.source.rs':
+  'console log':
+    'prefix': 'cl'
+    'body': 'println!("$1")'

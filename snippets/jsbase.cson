@@ -1,0 +1,49 @@
+'.source.js':
+  'Promise plus arrow':
+    'prefix': 'promise'
+    'body': '''return new Promise ((resolve, reject) => {
+      $1
+    })
+    '''
+
+'.source.js':
+  'Module Exports':
+    'prefix': 'mod'
+    'body': 'module.exports = $1'
+
+'.source.js':
+  'ES6 import':
+    'prefix': 'im'
+    'body': 'import ${1:name} from \'${2:dep}\''
+
+'.source.js':
+  'Function':
+    'prefix': 'fn'
+    'body': '''function ${1:name} ($2) {
+      $3
+    }'''
+
+'.source.js':
+  'ES6 export':
+    'prefix': 'ex'
+    'body': 'export default $1'
+
+'.source.js':
+  'Console Log':
+    'prefix': 'cl'
+    'body': 'console.log($1)'
+
+'.source.js':
+  'Console Log':
+    'prefix': 'ce'
+    'body': 'console.error($1)'
+
+'.source.js':
+  'ES6 Class':
+    'prefix': 'class'
+    'body': '''class ${1:className} {
+      constructor() {
+        $2
+      }
+    }
+    '''

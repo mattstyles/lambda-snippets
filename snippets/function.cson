@@ -1,6 +1,0 @@
-'.source.js':
-  'Function':
-    'prefix': 'fn'
-    'body': '''function() {
-      $1
-    }'''

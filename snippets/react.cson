@@ -1,13 +1,13 @@
 '.source.js':
   'react class base':
-    'prefix': 'react'
+    'prefix': 'rc'
     'body': '''import React from 'react'
 
-    export default class {$1:classname} extends React.Component {
+    export default class ${1:classname} extends React.Component {
       constructor( props ) {
         super( props )
-          $2
-        }
+        $2
+      }
 
       render() {
         return (

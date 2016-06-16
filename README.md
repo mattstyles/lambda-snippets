@@ -1,3 +1,3 @@
 # lambda-snippets package
 
-Nothing special, its just some javascript snippets man!
+Nothing special, its just some snippets man!

@@ -1,4 +1,0 @@
-'.source.js':
-  'ES6 export':
-    'prefix': 'ex'
-    'body': '''export default $1'''

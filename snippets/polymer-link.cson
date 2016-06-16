@@ -1,4 +1,0 @@
-'.source.js':
-  'Polymer Import Link':
-    'prefix': 'plink'
-    'body': '<link rel="import" href="$1">'

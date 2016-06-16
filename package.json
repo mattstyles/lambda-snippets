@@ -1,7 +1,7 @@
 {
   "name": "lambda-snippets",
   "version": "0.5.0",
-  "description": "Its just some javascript code snippets",
+  "description": "Small collection",
   "repository": "https://github.com/mattstyles/lambda-snippets",
   "license": "MIT",
   "engines": {

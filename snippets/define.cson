@@ -1,9 +1,0 @@
-'.source.js':
-  'Define':
-    'prefix': 'define'
-    'body': '''define( function( require, exports, module ) ) {
-        "use strict";
-
-        $1
-        
-    });'''

@@ -1,6 +1,0 @@
-'.source.js':
-  'Function with Params':
-    'prefix': 'fnp'
-    'body': '''function( $1 ) {
-        $2
-    }'''

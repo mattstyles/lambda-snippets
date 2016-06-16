@@ -1,4 +1,0 @@
-'.source.js':
-  'Module Exports':
-    'prefix': 'mod'
-    'body': 'module.exports = $1'

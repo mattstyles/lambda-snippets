@@ -1,9 +1,0 @@
-'.source.js':
-  'ES6 Class':
-    'prefix': 'class'
-    'body': '''class ${1:className} {
-      constructor() {
-        $2
-      }
-    }
-    '''
