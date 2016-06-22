@@ -1,43 +1,50 @@
 
-'.source.js':
-  'Module Import':
-    'prefix': 'req'
-    'body': "const ${1:name} = require('${1:name}')"
-  'Module Exports':
-    'prefix': 'mod'
-    'body': 'module.exports = $1'
-  'Function':
-    'prefix': 'fn'
-    'body': """function ${1:name} ($2) {
-      $3
-    }"""
+".source.js":
+  "Module Import":
+    prefix: "req"
+    body: "const ${1:name} = require('${1:name}')"
+  "Module Export":
+    prefix: "mod"
+    body: "module.exports = ${1}"
+  "Function":
+    prefix: "fn"
+    body: """
+    function ${1:name} (${2}) {
+      ${3}
+    }
+    """
 
-'.source.js':
-  'ES6 import':
-    'prefix': 'im'
-    'body': 'import ${1:name} from \'${2:dep}\''
-  'ES6 export':
-    'prefix': 'ex'
-    'body': 'export default $1'
-  'ES6 Class':
-    'prefix': 'class'
-    'body': """class ${1:className} {
+".source.js":
+  "ES6 Import":
+    prefix: "im"
+    body: "import ${1:name} from \'${2:dep}\'"
+  "ES6 Export":
+    prefix: "ex"
+    body: "export default ${1}"
+  "Class":
+    prefix: "class"
+    body: """
+    class ${1:className} {
       constructor() {
-        $2
+        ${2}
       }
     }
     """
-  'Promise':
-    'prefix': 'promise'
-    'body': """return new Promise ((resolve, reject) => {
-      $1
+  "Promise":
+    prefix: "promise"
+    body: """
+    return new Promise ((resolve, reject) => {
+      ${1}
     })
     """
 
-'.source.js':
-  'Console Log':
-    'prefix': 'cl'
-    'body': 'console.log($1)'
-  'Console Error':
-    'prefix': 'ce'
-    'body': 'console.error($1)'
+".source.js":
+  "console.log":
+    prefix: "cl"
+    body: "console.log(${0})"
+  "console.error":
+    prefix: "ce"
+    body: "console.error(${0})"
+  "console.warn":
+    prefix: "cw"
+    body: "console.warn(${0})"

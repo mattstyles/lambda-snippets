@@ -1,7 +1,8 @@
-'.source.js':
-  'react class base':
-    'prefix': 'rc'
-    'body': """import React from 'react'
+".source.js":
+  "React Class Base":
+    prefix: "rc"
+    body: """
+    import React from 'react'
 
     export default class ${1:classname} extends React.Component {
       constructor( props ) {
