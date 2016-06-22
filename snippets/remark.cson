@@ -1,26 +1,31 @@
 '.source.js':
   'Remark Comment':
-    'prefix': 'rem'
-    'body': '/**\n * $1\n */'
+    'prefix': 'rm'
+    'body': """
+    /**
+     * $1
+     */
+    $2
+    """
 
 '.source.less':
   'Remark Comment':
-    'prefix': 'rem'
-    'body': '/**\n * $1\n */'
+    'prefix': 'rm'
+    'body': '/**\n * $1\n  */'
 
 '.source.css':
   'Remark Comment':
-    'prefix': 'rem'
-    'body': '/**\n * $1\n */'
+    'prefix': 'rm'
+    'body': '/**\n * $1\n  */'
 
 '.source.js':
   'Remark Comment':
     'prefix': 'remm'
-    'body': '''
+    'body': """
     /*-----------------------------------------------------------*\
      *
      *  $1
      *
-    \*-----------------------------------------------------------*/
+    \\*-----------------------------------------------------------*/
     $2
-    '''
+    """

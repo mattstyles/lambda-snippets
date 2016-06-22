@@ -1,9 +1,12 @@
-'.source.rs':
+'.source.rust':
   'extern crate':
     'prefix': 'ec'
-    'body': 'extern crate ${1:name}'
+    'body': 'extern crate ${1:name};'
 
-'.source.rs':
   'console log':
-    'prefix': 'cl'
-    'body': 'println!("$1")'
+    'prefix': 'cl println'
+    'body': 'println!("$1");'
+
+  'write':
+    'prefix': 'wr write'
+    'body': 'write!("$1");'
