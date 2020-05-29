@@ -1,3 +1,3 @@
 # lambda-snippets package
 
-Nothing special, its just some snippets man!
+Minimal selection of snippets.

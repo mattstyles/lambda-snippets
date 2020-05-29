@@ -1,4 +1,4 @@
-".source.js, .source.ts, .source.jsx, .source.tsx, source.css, source.less":
+".source.js, .source.ts, .source.jsx, .source.tsx, .source.css, .source.less":
   "Remark":
     prefix: "rem"
     body: """
