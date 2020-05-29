@@ -1,5 +1,5 @@
 
-".source.js":
+".source.js, .source.jsx, .source.ts, .source.tsx":
   "Module Import":
     prefix: "req"
     body: "const ${1:name} = require('${1:name}')"
@@ -13,14 +13,12 @@
       ${3}
     }
     """
-
-".source.js":
   "ES6 Import":
-    prefix: "im"
-    body: "import ${1:name} from \'${2:dep}\'"
+    prefix: "i"
+    body: "import { ${1:name} } from \'${2:dep}\'"
   "ES6 Export":
-    prefix: "ex"
-    body: "export default ${1}"
+    prefix: "e"
+    body: "export ${1}"
   "Class":
     prefix: "class"
     body: """
@@ -31,14 +29,12 @@
     }
     """
   "Promise":
-    prefix: "promise"
+    prefix: "p"
     body: """
-    return new Promise ((resolve, reject) => {
+    new Promise ((resolve, reject) => {
       ${1}
     })
     """
-
-".source.js":
   "console.log":
     prefix: "cl"
     body: "console.log(${0})"
