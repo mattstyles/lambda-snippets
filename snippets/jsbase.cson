@@ -13,6 +13,13 @@
       ${3}
     }
     """
+  "FunctionVariable":
+    prefix: "c",
+    body: """
+    const ${1:name} = (${2}) => {
+      ${3}
+    }
+    """
   "ES6 Import":
     prefix: "i"
     body: "import { ${1:name} } from \'${2:dep}\'"
